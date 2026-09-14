@@ -1,11 +1,10 @@
-import pandas as pd
+import numpy as np
 
-data = {
-    "Name": ["Ahmed", "Ali", "Hamza"],
-    "Age": [20, 21, 19],
-    "Grade": [85, 90, 78]
-}
 
-df = pd.DataFrame(data)
+data = np.array([10, 20, 30])
 
-print(df)
+mean = np.mean(data)
+std = np.std(data)
+
+print("Mean:", mean)
+print("Standard Deviation:", std)
