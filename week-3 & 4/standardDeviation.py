@@ -9,4 +9,4 @@ std = np.std(data)
 
 standardized_data = (data - mean) / std
 
-print(standardized_data)
+print(standardized_data) 
