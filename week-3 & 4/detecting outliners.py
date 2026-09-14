@@ -15,3 +15,7 @@ higher_bound = q3 + 1.5 * iqr
 outliners = data[(data < lower_bound) | (data > higher_bound)]
 
 print("Outliers:", outliners)
+
+clean_data = data[(data >= lower_bound) & (data <= higher_bound)]
+
+print("Clean Data:", clean_data)
