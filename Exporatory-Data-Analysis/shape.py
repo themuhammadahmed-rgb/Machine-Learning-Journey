@@ -11,5 +11,7 @@ df = pd.DataFrame(data)
 
 print(df)
 print(df.shape)
-print(df.info())
+df.info()
 print(df.describe())
+print(df.isnull())
+print(df.isnull().sum())
