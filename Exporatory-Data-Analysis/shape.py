@@ -11,3 +11,5 @@ df = pd.DataFrame(data)
 
 print(df)
 print(df.shape)
+print(df.info())
+print(df.describe())
