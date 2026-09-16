@@ -10,3 +10,6 @@ print(df.isnull())
 print(df.isnull().sum())
 
 print(df.dropna())  # Drop rows with any null values
+
+
+print(df["Salary"].fillna(df["Salary"].median()))  # Fill null values with the median of the column
