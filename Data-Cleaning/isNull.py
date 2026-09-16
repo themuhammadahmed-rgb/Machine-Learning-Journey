@@ -8,3 +8,5 @@ df = pd.DataFrame(data)
 
 print(df.isnull())
 print(df.isnull().sum())
+
+print(df.dropna())  # Drop rows with any null values
