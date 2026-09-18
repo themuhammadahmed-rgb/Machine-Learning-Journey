@@ -10,4 +10,6 @@ print(df)
 
 print(df["Age"] > 0)
 
-df.loc[df["Age"] <= 0, "Age"] = None      
+df.loc[df["Age"] <= 0, "Age"] = None 
+
+print(df)
