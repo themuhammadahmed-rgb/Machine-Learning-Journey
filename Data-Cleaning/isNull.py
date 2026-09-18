@@ -11,5 +11,6 @@ print(df.isnull().sum())
 
 print(df.dropna())  # Drop rows with any null values
 
+df["Salary"] = df["Salary"].fillna(df["Salary"].median())  # Fill null values with the median of the column
 
-print(df["Salary"].fillna(df["Salary"].median()))  # Fill null values with the median of the column
+print(df)
