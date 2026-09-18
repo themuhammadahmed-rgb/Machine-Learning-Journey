@@ -8,4 +8,6 @@ data = {
 
 df = pd.DataFrame(data)
 
-pd.to_numeric(df["Salary"], errors='coerce')
+df["Salary"] = pd.to_numeric(df["Salary"], errors='coerce')
+
+print(df)
