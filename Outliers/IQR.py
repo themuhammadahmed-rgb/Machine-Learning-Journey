@@ -10,3 +10,10 @@ Q1 = df["Salary"].quantile(0.25)
 Q3 = df["Salary"].quantile(0.75)
 
 IQR = Q3 - Q1
+
+print("Q1:", Q1)
+print("Q3:", Q3)
+print(IQR)
+
+lowerBound = Q1 - (1.5 * IQR)
+upperBound = Q3 + (1.5 * IQR)
