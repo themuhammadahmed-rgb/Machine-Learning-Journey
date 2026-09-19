@@ -18,3 +18,5 @@ upperBound = Q3 + (1.5 * IQR)
 
 outliers = (df["Salary"] < lowerBound) | (df["Salary"] > upperBound)
 print(outliers)
+
+print(df[outliers])
