@@ -12,5 +12,5 @@ level_map = {
     "Advanced" : 3
 }
 
-df["data"] = df["data"].map(level_map)
+df["level"] = df["level"].map(level_map)
 print(df)
