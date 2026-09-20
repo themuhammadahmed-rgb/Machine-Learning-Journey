@@ -13,6 +13,5 @@ education_map = {
     "Master": 3,
     "PhD": 4
 }
-
 df["Education"] = df["Education"].map(education_map)
 print(df)
