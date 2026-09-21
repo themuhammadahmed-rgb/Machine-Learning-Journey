@@ -1,6 +1,0 @@
-Create table employees (
-    id Integer,
-    name Text,
-    age integer,
-    salary integer
-)
