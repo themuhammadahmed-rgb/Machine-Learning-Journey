@@ -7,3 +7,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+print(df.plot.scatter(x='Study_Hours', y='Marks', title='Study Hours vs Marks'))
+plt.show()
