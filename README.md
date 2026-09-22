@@ -25,23 +25,6 @@ I'm going ML Engineering first, then AI/LLM Engineering second. Reasoning: I wan
 | 12-13 | RAG & Agents (LangChain, CrewAI, MCP), LLM serving, evaluation (RAGAS, LLM-as-judge) | ⏳ Upcoming |
 | 14 | **Capstone Project 2**: a deployed RAG/agent system, AI safety review, interview prep | ⏳ Upcoming |
 
-## Repo structure
-
-```
-ml-ai-engineering-journey/
-├── week-01-02-python-fundamentals/
-├── week-03-pandas-eda/
-├── week-04-05-classical-ml/
-├── week-06-08-deep-learning/
-├── week-09-mlops-capstone-1/
-├── week-10-llm-foundations/
-├── week-11-embeddings-retrieval/
-├── week-12-13-rag-agents/
-└── week-14-capstone-2/
-```
-
-Each folder contains practice notebooks/scripts for that week's topics, plus a short `notes.md` summarizing what I learned and any gotchas.
-
 ## Background
 
 Coming from a full-stack and Android development background (Kotlin/Jetpack Compose), with hands-on internship experience building React/Vite job board applications and CRUD + JWT backends. This repo is where the ML/AI layer gets built on top of that foundation.
