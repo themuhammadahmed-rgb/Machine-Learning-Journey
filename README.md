@@ -12,7 +12,7 @@ I'm going ML Engineering first, then AI/LLM Engineering second. Reasoning: I wan
 | Week | Topic | Status |
 |------|-------|--------|
 | 1-2 | Python fundamentals, NumPy, Git, Math foundations (linear algebra, probability & statistics, calculus) | ✅ Complete |
-| 3 | Pandas, EDA, data cleaning, feature engineering, basic SQL | 🔄 In progress |
+| 3 | Pandas, EDA, data cleaning, feature engineering, basic SQL | ✅ Complete |
 | 4-5 | Classical ML (regression, trees, SVMs, k-means, Naive Bayes), model evaluation, explainability (SHAP/LIME) | ⏳ Upcoming |
 | 6-8 | Deep Learning (neural networks, CNNs, RNNs/LSTMs, Transformers) — includes a real image classifier build | ⏳ Upcoming |
 | 9 | MLOps & Production (MLflow, CI/CD, FastAPI + Docker, monitoring) — **Capstone Project 1**: a deployed, monitored, versioned model | ⏳ Upcoming |
