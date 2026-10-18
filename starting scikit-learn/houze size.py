@@ -6,8 +6,6 @@ y = [5, 10, 15, 20]
 model = LinearRegression()
 model.fit(X, y)
 
-
-
 prediction1 = model.predict([[250]])
 print(prediction1)
 
