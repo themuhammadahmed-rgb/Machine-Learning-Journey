@@ -13,3 +13,6 @@ prediction = model.predict([[250]])
 print(prediction)
 
 print(model.coef_)
+
+
+print(model.intercept_)
