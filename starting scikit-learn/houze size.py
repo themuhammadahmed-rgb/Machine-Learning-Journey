@@ -8,11 +8,13 @@ model.fit(X, y)
 
 
 
-prediction = model.predict([[250]])
+prediction1 = model.predict([[250]])
+print(prediction1)
 
-print(prediction)
+
+prediction2 = model.predict([[80]])
+print(prediction2)
+
 
 print(model.coef_)
-
-
 print(model.intercept_)
