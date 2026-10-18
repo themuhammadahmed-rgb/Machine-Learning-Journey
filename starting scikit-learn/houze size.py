@@ -15,6 +15,8 @@ print(prediction1)
 prediction2 = model.predict([[80]])
 print(prediction2)
 
+prediction3 = model.predict([[120]])
+print(prediction3)
 
 print(model.coef_)
 print(model.intercept_)
