@@ -20,3 +20,7 @@ print(prediction3)
 
 print(model.coef_)
 print(model.intercept_)
+
+
+predictions = model.predict(X)
+print(predictions)
