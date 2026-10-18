@@ -8,5 +8,6 @@ model.fit(X, y)
 
 
 
-prediction = model.predict([[120]])
+prediction = model.predict([[250]])
+
 print(prediction)
