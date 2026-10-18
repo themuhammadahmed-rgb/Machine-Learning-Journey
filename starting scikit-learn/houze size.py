@@ -11,3 +11,5 @@ model.fit(X, y)
 prediction = model.predict([[250]])
 
 print(prediction)
+
+print(model.coef_)
