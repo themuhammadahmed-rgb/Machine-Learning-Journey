@@ -7,3 +7,5 @@ X_new = np.array([
 print(X_new.shape)
 
 predictions = knn.predict(X_new)
+
+print("Predictions: {}".format(predictions))
