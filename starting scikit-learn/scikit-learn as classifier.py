@@ -1,11 +1,17 @@
+# Import KNeighborsClassifier
 from sklearn.neighbors import KNeighborsClassifier
 
-X = churn_df[["total_day_charge", "total_eve_charge"]].values
+
 
 y = churn_df["churn"].values
+X = churn_df[["account_length", "customer_service_calls"]].values
 
-print(X.shape, y.shape)
 
-knn = KNeighborsClassifier(n_neighbors=15)
 
-knn.fit(X, y)
+# Create a KNN classifier with 6 neighbors
+knn = KNeighborsClassifier(n_neighbors = 6)
+
+
+
+# Fit the classifier to the data
+knn.fit(X,y)
