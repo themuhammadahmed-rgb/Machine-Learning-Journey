@@ -1,15 +1,47 @@
-# Add a title
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+
+# Create neighbor values
+neighbors = np.arange(1, 13)
+
+# Dictionaries to store accuracies
+train_accuracies = {}
+test_accuracies = {}
+
+# Loop over different k values
+for neighbor in neighbors:
+
+    # Create KNN model
+    knn = KNeighborsClassifier(n_neighbors=neighbor)
+
+    # Train the model
+    knn.fit(X_train, y_train)
+
+    # Store accuracies
+    train_accuracies[neighbor] = knn.score(X_train, y_train)
+    test_accuracies[neighbor] = knn.score(X_test, y_test)
+
+# Plot results
 plt.title("KNN: Varying Number of Neighbors")
 
-# Plot training accuracies
-plt.plot(neighbors, train_accuracies.values(), label="Training Accuracy")
+plt.plot(
+    neighbors,
+    train_accuracies.values(),
+    label="Training Accuracy"
+)
 
-# Plot test accuracies
-plt.plot(neighbors, test_accuracies.values(), label="Test Accuracy")
+plt.plot(
+    neighbors,
+    test_accuracies.values(),
+    label="Testing Accuracy"
+)
 
-plt.legend()
 plt.xlabel("Number of Neighbors")
 plt.ylabel("Accuracy")
 
-# Display the plot
+plt.legend()
+
 plt.show()
