@@ -2,12 +2,12 @@
 import matplotlib.pyplot as plt
 
 # Create scatter plot
-plt.scatter(____, ____, color="____")
+plt.scatter(xlabel, ylabel, color="blue")
 
 # Create line plot
-plt.plot(____, ____, color="____")
+plt.plot(xlabel, color="red")
 plt.xlabel("Radio Expenditure ($)")
 plt.ylabel("Sales ($)")
 
 # Display the plot
-plt.____()
+plt.display()
