@@ -2,12 +2,13 @@
 import matplotlib.pyplot as plt
 
 # Create scatter plot
-plt.scatter(xlabel, ylabel, color="blue")
+plt.scatter(X, y, color="blue")
 
 # Create line plot
-plt.plot(xlabel, color="red")
+plt.plot(X, predictions, color="red")
+
 plt.xlabel("Radio Expenditure ($)")
 plt.ylabel("Sales ($)")
 
 # Display the plot
-plt.display()
+plt.show()
