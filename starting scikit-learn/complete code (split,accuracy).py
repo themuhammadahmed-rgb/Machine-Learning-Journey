@@ -32,7 +32,7 @@ for neighbor in neighbors:
 
     # Train the model
     knn.fit(X_train, y_train)
-
+    
     # Store accuracies
     train_accuracies[neighbor] = knn.score(X_train, y_train)
     test_accuracies[neighbor] = knn.score(X_test, y_test)
