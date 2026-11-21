@@ -1,4 +1,3 @@
-# Import Ridge
 from sklearn.linear_model import Ridge
 alphas = [0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
 ridge_scores = []
